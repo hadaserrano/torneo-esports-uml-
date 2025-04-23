@@ -37,9 +37,6 @@ torneo-esports-uml/ ├── src/
 1. Clonar el repositorio: 
 `git clone https://github.com/hadaserrano/torneo-esports-uml.git` 
  
-2. Compilar y ejecutar el proyecto: 
-`cd src javac es/empresa/torneo/Main.java java es.empresa.torneo.Main` 
- 
 ## Justificación del diseño 
 En el diagrama de casos de usos encontramos los siguientes casos: Registrar jugador, Añadir jugadores a un equipo, Registrar equipo, Consultar lista de equipos y jugadores. Decidí incluir el caso de uso de "registrar jugador" ya que no creo que sea posible anadir jugadores a un equipo sin antes haber registrado a los propios jugadores, considero que todos los casos de uso son indepenedientes ya que tu puedes realizar cada uno de ellos de forma individual. El único actor que encontré es el Admin(administrador) el cual es el encargado de realizar cada una de las acciones.
 
